@@ -6,7 +6,7 @@ The simplest shopping cart class ever to exist. For a full stack shopping cart s
 The cart class class is hopefully very intuitive. It depends on nothing, and assumes nothing except that your items have a unique identifier.
 
 ````php
-use Metator\Cart;
+use Metator\Cart\Cart;
 
 $cart = new Cart;
 $cart->add(5);
