@@ -82,6 +82,13 @@ class CartTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals(9.99, $cart->price(5), 'should get price of an item');
     }
 
+    function testShouldDefaultPriceTo0()
+    {
+        $cart = new Cart;
+        $cart->add(5);
+        $this->assertEquals(0, $cart->price(5), 'should default the price to 0');
+    }
+
     function testItemPriceDoesntDependOnQuantity()
     {
         $cart = new Cart;

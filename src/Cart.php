@@ -60,7 +60,7 @@ class Cart
     /** Get the per item price for an ID */
     function price($id)
     {
-        return $this->prices[$id];
+        return isset($this->prices[$id]) ? $this->prices[$id] : 0;
     }
 
     /** Get the total price for an item if you pass an ID, or all items if you don't pass an ID. */
