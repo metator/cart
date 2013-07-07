@@ -1,3 +1,4 @@
+[![Coverage Status](https://coveralls.io/repos/metator/cart/badge.png?branch=master)](https://coveralls.io/r/metator/cart?branch=master)
 [![Build Status](https://travis-ci.org/metator/cart.png?branch=master)](https://travis-ci.org/metator/cart)
 
 Metator Cart
